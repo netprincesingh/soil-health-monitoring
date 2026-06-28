@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Prediction</title>
+</head>
+<body>
+    <h1>Crop Prediction</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="N">Nitrogen (N):</label>
+        <input type="number" step="any" id="N" name="N" required><br><br>
+
+        <label for="P">Phosphorous (P):</label>
+        <input type="number" step="any" id="P" name="P" required><br><br>
+
+        <label for="K">Potassium (K):</label>
+        <input type="number" step="any" id="K" name="K" required><br><br>
+
+        <label for="PH">pH Level:</label>
+        <input type="number" step="any" id="PH" name="PH" required><br><br>
+
+        <label for="TEMPERATURE">Temperature:</label>
+        <input type="number" step="any" id="TEMPERATURE" name="TEMPERATURE" required><br><br>
+
+        <label for="MOISTURIZER">Moisturizer:</label>
+        <input type="number" step="any" id="MOISTURIZER" name="MOISTURIZER" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+    <h2>Prediction Result</h2>
+    <p>Suitable Crop: <strong>{{ result }}</strong></p>
+    {% endif %}
+</body>
+</html>
