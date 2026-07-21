@@ -5,7 +5,7 @@ This project aims to implement NPK sensor, PH sensor and soil temperature and mo
 
 ## Working of this device
 
-<img src="https://github.com/netprincesingh/soil-health-monitoring/img/diagram.png" width="700" height="700" alt="Description">
+<img src="https://github.com/netprincesingh/soil-health-monitoring/blob/main/img/diagram.png" width="700" height="700" alt="Description">
 
 > Note: This is important
 
@@ -14,6 +14,6 @@ Arduino UNO ->slave 1 (NPK sensor)
 Arduino UNO ->slave 2 (PH sensor)  
 Arduino UNO ->slave 3 (Moisture and Temperature sensor).
 
-<img src="https://github.com/netprincesingh/soil-health-monitoring/img/1.jpg" width="700" height="400" alt="Description">
-<img src="https://github.com/netprincesingh/soil-health-monitoring/img/2.jpg" width="700" height="400" alt="Description">
-<img src="https://github.com/netprincesingh/soil-health-monitoring/img/app.png" width="300" height="700" alt="Description">
+<img src="https://github.com/netprincesingh/soil-health-monitoring/blob/main/img/1.jpg" width="700" height="400" alt="Description">
+<img src="https://github.com/netprincesingh/soil-health-monitoring/blob/main/img/2.jpg" width="700" height="400" alt="Description">
+
